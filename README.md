@@ -103,9 +103,9 @@ The selected channel is also returned when the multiplexer is disabled.
 
 These functions work only if enablePin is set in the constructor.
 
-- **void enable()** enables the HC4052 to multiplex.
-- **void disable()** disables the HC4052, no channel is selected.
-- **bool isEnabled()** returns the current status of the HC4067.
+- **void enable()** enables the device to multiplex.
+- **void disable()** disables the device, no channel is selected.
+- **bool isEnabled()** returns the current status of the device.
 Also returns true if the enablePin is not set in the constructor.
 
 
